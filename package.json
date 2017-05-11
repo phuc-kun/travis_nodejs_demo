@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build:js": "browserify index.js > index.js",
-    "build": "npm run build:js",
+    "build": "npm run build:js"
   },
   "repository": {
     "type": "git",
