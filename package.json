@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {
-    "jshint": "latest"
-  },
   "scripts": {
-    "lint": "jshint *.js"
+    "test": "mocha test/index.js",
+    "test:xunit": "npm run test -- --reporter xunit"
   },
   "repository": {
     "type": "git",
