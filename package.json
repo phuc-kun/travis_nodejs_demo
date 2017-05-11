@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "jshint": "latest"
+  },
   "scripts": {
+    "lint": "jshint *.js"
   },
   "repository": {
     "type": "git",
