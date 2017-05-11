@@ -1,0 +1,19 @@
+{
+  "name": "travis_nodejs_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuc-kun/travis_nodejs_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuc-kun/travis_nodejs_demo/issues"
+  },
+  "homepage": "https://github.com/phuc-kun/travis_nodejs_demo#readme"
+}
