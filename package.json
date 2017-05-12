@@ -3,15 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {
-    "stylus": "latest",
-    "jade": "latest",
-    "browserify": "latest",
-    "parallelshell": "latest"
-  },
   "scripts": {
-    "build:js": "browserify index.js",
-    "build": "npm run build:js"
+    "test":"mocha test"
   },
   "repository": {
     "type": "git",
