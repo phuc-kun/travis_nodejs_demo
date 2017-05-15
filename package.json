@@ -2,7 +2,7 @@
   "name": "travis_nodejs_demo",
   "version": "1.0.0",
   "description": "",
-  "main":"require('./src/.js')",
+  "main":"index.js",
   "scripts": {
     "test":"mocha test"
   },
